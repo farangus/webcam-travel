@@ -1,0 +1,43 @@
+User-agent: GoogleBot
+Allow: /*/*.js             
+Allow: /*/*.css             
+Allow: /wp-*.png            
+Allow: /wp-*.jpg           
+Allow: /wp-*.jpeg          
+Allow: /wp-*.gif
+Disallow: /tag
+Disallow: /page
+Disallow: /archive
+Disallow: */feed
+Disallow: */comments
+Disallow: */comment-page-*
+
+Sitemap: https://farangus.github.io/webcam-travel/sitemap.xml
+Sitemap: https://farangus.github.io/webcam-travel/sitemap.xml.gz
+
+User-agent: Yandex
+Allow: /wp-content/uploads/
+Disallow: /cgi-bin
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/themes
+Disallow: /xmlrpc.php
+Disallow: /trackback/
+Disallow: /feed/
+Disallow: /comments
+Disallow: /tag
+Disallow: /page
+Disallow: /archive
+Disallow: */trackback
+Disallow: */feed
+Disallow: */comments
+Disallow: /*?*
+Disallow: /*? 
+Disallow: */comment-page-*
+Crawl-delay: 3
+
+Host: webcam-travel.com
+Sitemap: https://farangus.github.io/webcam-travel/sitemap.xml
+Sitemap: https://farangus.github.io/webcam-travel/sitemap.xml.gz
+
